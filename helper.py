@@ -1,7 +1,5 @@
 import math
-
 from Grafo import Grafo
-
 
 def formataEstruturaAuxiliar(F: 'list[int]'):
   resposta: list[dict] = []
@@ -12,7 +10,7 @@ def formataEstruturaAuxiliar(F: 'list[int]'):
     })
   return resposta
 
-# Adaptado de https://pt.wikipedia.org/wiki/Merge_sort
+# Adaptado de https://pt.wikipedia.org/wiki/Merge_sort#C%C3%B3digo_em_Python
 def mergeSort(lista: 'list[dict]'):
   if (len(lista) > 1):
 
@@ -48,7 +46,7 @@ def mergeSort(lista: 'list[dict]'):
 
   return lista
 
-# Adaptado de https://pt.wikipedia.org/wiki/Merge_sort
+# Adaptado de https://pt.wikipedia.org/wiki/Merge_sort#C%C3%B3digo_em_Python
 def mergeSortKruskal(grafo: Grafo, lista: 'list[tuple[int, int]]'):
   if (len(lista) > 1):
 
